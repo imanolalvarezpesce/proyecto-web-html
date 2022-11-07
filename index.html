@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilo.css">
-    <title>LP desarrolo web</title>
+    <title>IP desarrolo web</title>
 </head>
 
 <body>
@@ -18,16 +18,16 @@
                     <h1>/IP/</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-                            <li><a href="#sobremi">SOBRE MI </a></li>
-                            <li><a href="#servicios">SERVICIOS</a></li>
-                            <li><a href="#portfolio">PORTFOLIO</a></li>
-                            <li><a href="#contacto">CONTACTO</a></li>
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI </a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
 
                     <!-- iconos del menu responsive -->
-                    <div id="inoco-nav">
+                    <div id="inoco-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                     <!-- iconos de las redes sociales -->
@@ -37,6 +37,7 @@
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
+               
             </header>
             <div class="presentacion">
                 <p class="bienvenida">Bienvenidos</p>
@@ -45,8 +46,8 @@
                 <a href="#portfolio">Ir a portfolio</a>
             </div>
         </div>
-
     </section>
+   
 
     <!-- seccion sobre mi -->
     <section id="sobremi">
@@ -68,9 +69,176 @@
         <h3 class="titulo-seccion">MIS SERVICIOS</h3>
         <DIV class="fila">
             <div class="servicio">
-                <span class="icono"></span>
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus atque corrupti vero autem necessitatibus magnam eius consectetur temporibus deserunt, sed nulla illum corporis omnis quia provident mollitia distinctio ullam?</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus atque corrupti vero autem necessitatibus magnam eius consectetur temporibus deserunt, sed nulla illum corporis omnis quia provident mollitia distinctio ullam?</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus atque corrupti vero autem necessitatibus magnam eius consectetur temporibus deserunt, sed nulla illum corporis omnis quia provident mollitia distinctio ullam?</p>
+            </div>
+        </DIV>
+        <DIV class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus atque corrupti vero autem necessitatibus magnam eius consectetur temporibus deserunt, sed nulla illum corporis omnis quia provident mollitia distinctio ullam?</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus atque corrupti vero autem necessitatibus magnam eius consectetur temporibus deserunt, sed nulla illum corporis omnis quia provident mollitia distinctio ullam?</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEo</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus atque corrupti vero autem necessitatibus magnam eius consectetur temporibus deserunt, sed nulla illum corporis omnis quia provident mollitia distinctio ullam?</p>
             </div>
         </DIV>
     </section>
+    <!-- SECCION HABILIDADES -->
+<div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista">Html y Css</span></p>
+                <span class="porcentaje">95%</span></span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+        
+        <div class="skill">
+            <div class="info">
+            <p><span class="lista">Python</span></p>
+            <span class="porcentaje">95%</span></span>
+            </div>
+            <div class="barra">
+            <div id="python" class="barra-progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+        <div class="info">
+            <p><span class="lista">Word</span></p>
+            <span class="porcentaje">90%</span></span>
+        </div>
+        <div class="barra">
+            <div id="w" class="barra-progreso3"></div>
+        </div>
+     </div>
+      <div class="skill">
+            <div class="info">
+            <p><span class="lista">Photoshop</span></p>
+            <span class="porcentaje">85%</span></span>
+            </div>
+            <div class="barra">
+                <div id="ph" class="barra-progreso4"></div>
+            </div>
+        </div>
+</div>
+<!-- SECCION PORTAFOLIO -->
+ <section id="portfolio">
+     <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+     
+     <div class="fila">
+         <div class="proyecto">
+             <div class="overlay"></div>
+             <img src="img/html.misservicios.webp" alt="">
+             <div class="info">
+                <h4>Descripcion del peoyecto</h4>
+                <p>Diseño Web</p>    
+            </div>
+         </div>
+         <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/javascript.jpg" alt="">
+            <div class="info">
+               <h4>Descripcion del peoyecto</h4>
+               <p>Diseño Web</p>    
+           </div>
+        </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/python.webp" alt="">
+            <div class="info">
+               <h4>Descripcion del peoyecto</h4>
+               <p>Diseño Web</p>    
+           </div>
+        </div>
+     </div>
+ </section>
+ <!-- seccion contacto -->
+ <section id="contacto">
+     <h3 class="titulo-seccion">contactanos ahora</h3>
+     <div class="contenedor-form">
+         <form action="">
+             <div class="fila mitad">
+                 <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                 <input type="text" placeholder="Direccion de Email" class="input-mitad">
+             </div>
+             <div class="fila">
+                 <input type="text " placeholder="Tema..." class="input-full">
+             </div>
+             <div class="fila">
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+             </div>
+             <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+         </form>
+     </div>
+ </section>
+ <!-- seccion footer -->
+ <footer>
+     <p>todos los derechos reservados - 2022</p>
+     <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+ </footer>
+ <script src="script.js"></script>
 </body>
 </html>
